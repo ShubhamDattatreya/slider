@@ -1,0 +1,70 @@
+
+body{
+  background-image: url(./image/background.webp);
+}
+
+.img{
+  width: 500px;
+  height: 250px;
+  border-radius: 15px;
+}
+.up{
+
+
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: slateblue;
+  border: 1px;
+}
+.top{
+  position: relative;
+  top: 100px;
+  
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: row-reverse;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row-reverse;
+}
+
+.circle.active {
+  background-color: green;
+
+}
+.display{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+}
+.circle.active {
+  background-color: green;
+
+}
+
+
+.active1 {
+  border: 1px solid red; 
+  
+
+}
+.display2{
+  position: relative;
+  top: 50px;
+}
